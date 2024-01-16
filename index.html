@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Faris Čilaš-a developer </title>
+  </head>
+  <body class="body">
+
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+    
+    <div class="site-navbar-wrap">
+      <div class="site-navbar-top">
+        <div class="container py-3">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <div class="d-flex mr-auto">
+                <a href="#" class="d-flex align-items-center mr-4">
+                  <span class="icon-envelope mr-2"></span>
+                  <span class="d-none d-md-inline-block">fariscilas@outlook.com</span>
+                </a>
+                <a href="#" class="d-flex align-items-center mr-auto">
+                  <span class="icon-phone mr-2"></span>
+                  <span class="d-none d-md-inline-block">+387 062 676 953</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 text-right">
+              <div class="mr-auto">
+                <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
+                <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-navbar site-navbar-target js-sticky-header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-2">
+              <h1 class="my-0 site-logo"><a href="index.html">Faris</a></h1>
+            </div>
+            <div class="col-10">
+              <nav class="site-navigation text-right" role="navigation">
+                <div class="container">
+                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+                  <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                    <li class="active"><a href="#home-section" class="nav-link">Home</a></li>
+                    <li><a href="#scrollTarget" class="nav-link" id="scrollNavLink">About</a></li>
+                    <li><a href="#project-section" class="nav-link">Projects</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="hero" style="background-image: url('images/bg3.jpg');">]\
+    </div>
+    <div class="about"  id="scrollTarget">
+      <div class="division-container">
+      <div class="window left">
+        <div class="title-bar">
+          <div class="dot"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="title">
+          <div class="round-image">
+            <img src="your-image.jpg" alt="Your Image">
+          </div>
+          <div class="text">
+            <p style="margin: 0; font-size: 16px; font-weight: bold; color:#000000;">Hi, I'm Faris</p>
+            <p style="margin: 0; font-weight: bold; font-size: 14px; color: #555;">A passionate developer</p>
+          </div>
+        </div>
+      </div>
+        <div class="window right">
+            <div class="title-bar">
+                <div class="dot"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <div class="buttons">
+                    <div class="button"></div>
+                    <div class="button yellow"></div>
+                    <div class="button green"></div>
+                </div>
+            </div>
+            <div class="title">About</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Tortor at risus viverra adipiscing. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Justo nec ultrices dui sapien eget mi. Velit scelerisque in dictum non consectetur a erat nam at. Risus pretium quam vulputate dignissim suspendisse in est ante in. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Urna neque </p>
+            </div>
+          </div>
+        </div>
+
+            <div class="window bottom">
+              <div class="title-bar">
+                  <div class="dot"></div>
+                  <div class="dot yellow"></div>
+                  <div class="dot green"></div>
+                  <div class="buttons">
+                      <div class="button"></div>
+                      <div class="button yellow"></div>
+                      <div class="button green"></div>
+                  </div>
+                  </div>
+                  <div class="title">Known Languages</div>
+                  <div class="content"><p>Html/css,JavaScript,Python/pascal,NodeJS,SQL</p></div>
+              </div>
+
+              <footer>
+                &copy; 2024 - Faris Čilaš
+              </footer>
+    </div>
+  <script>
+  const dynamicElement = document.getElementById('window.right');
+  const targetElement = document.getElementById('window.left');
+  function setTargetHeight() {
+    targetElement.style.height = dynamicElement.clientHeight + 'px';
+  }
+  setTargetHeight();
+  window.addEventListener('resize', setTargetHeight);
+  </script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js" defer></script>
+  </body>
+
+</html>
